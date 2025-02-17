@@ -1,7 +1,7 @@
 from langchain_huggingface import ChatHuggingFace, HuggingFacePipeline
 import os
 
-os.environ["HF_HOME"] = "/home/chicha/huggingface"
+os.environ["HF_HOME"] = "/home/shaheemu/huggingface"
 
 llm = HuggingFacePipeline.from_model_id(
     model_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
