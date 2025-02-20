@@ -16,6 +16,7 @@ google-generativeai
 
 # Hugging Face Integration
 langchain-huggingface
+langchain-groq
 transformers
 huggingface-hub
 
@@ -29,3 +30,4 @@ scikit-learn
 # Utilities
 bs4
 faiss-cpu
+pypdf
