@@ -23,9 +23,6 @@ huggingface-hub
 # Environment Variable Management
 python-dotenv
 
-# langgraph related
-langgraph
-
 # Machine Learning Utilities
 numpy
 scikit-learn
