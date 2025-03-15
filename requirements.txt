@@ -31,3 +31,4 @@ scikit-learn
 bs4
 faiss-cpu
 pypdf
+grandalf

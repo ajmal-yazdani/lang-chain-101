@@ -4,7 +4,6 @@ from typing import TypedDict, Annotated, Optional, Literal
 
 load_dotenv()
 
-
 model = AzureChatOpenAI(azure_deployment="gpt-4o", api_version="2024-08-01-preview")
 
 
@@ -41,9 +40,9 @@ Review by Ajmal Yazdani
 """
 )
 
-print(f"key_themes: {result["key_themes"]}")
-print(f"summary: {result["summary"]}")
-print(f"sentiment: {result["sentiment"]}")
-print(f"pros: {result["pros"]}")
-print(f"cons: {result["cons"]}")
-print(f"name: {result["name"]}")
+print(f"key_themes: {result['key_themes']}")
+print(f"summary: {result['summary']}")
+print(f"sentiment: {result['sentiment']}")
+print(f"pros: {result['pros']}")
+print(f"cons: {result['cons']}")
+print(f"name: {result['name']}")
