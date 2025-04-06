@@ -1,7 +1,7 @@
-from langchain_openai import AzureChatOpenAI
 from dotenv import load_dotenv
-from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
+from langchain_core.prompts import PromptTemplate
+from langchain_openai import AzureChatOpenAI
 
 load_dotenv()
 

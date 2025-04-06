@@ -1,5 +1,6 @@
-from langchain_huggingface import ChatHuggingFace, HuggingFacePipeline
 import os
+
+from langchain_huggingface import ChatHuggingFace, HuggingFacePipeline
 
 os.environ["HF_HOME"] = "/home/chicha/huggingface"
 
